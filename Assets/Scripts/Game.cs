@@ -26,6 +26,6 @@ public class Game : MonoBehaviour
 
         CurrentState = State.Won;
         Debug.Log("You won!");
-        //GameObject.Find("WinSalute").GetComponent<ParticleSystem>().Play();
+        GameObject.Find("WinSalute").GetComponent<ParticleSystem>().Play();
     }
 }

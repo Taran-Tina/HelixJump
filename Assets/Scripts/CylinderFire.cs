@@ -25,6 +25,6 @@ public class CylinderFire : MonoBehaviour
     private void Update()
     { 
         mat.SetFloat("_Fire", camera.transform.position.y-2);
-        //sparkle.transform.position = new Vector3(sparkle.transform.position.x, camera.transform.position.y-2, sparkle.transform.position.z);
+        sparkle.transform.position = new Vector3(sparkle.transform.position.x, camera.transform.position.y-2, sparkle.transform.position.z);
     }
 }
