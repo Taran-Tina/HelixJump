@@ -542,7 +542,7 @@
     },
     "m_ActiveTargets": [
         {
-            "m_Id": "8d5b8629365648b5b2fe1ea0f255d5cd"
+            "m_Id": "26c02b40cfde417bb2e879ceb1283bed"
         },
         {
             "m_Id": "76469d58371a4959a10d3d4f57614535"
@@ -986,6 +986,23 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 2,
+    "m_Type": "UnityEditor.Rendering.BuiltIn.ShaderGraph.BuiltInTarget",
+    "m_ObjectId": "26c02b40cfde417bb2e879ceb1283bed",
+    "m_ActiveSubTarget": {
+        "m_Id": "a473ed17c922415aa6370f9de04ce55d"
+    },
+    "m_AllowMaterialOverride": false,
+    "m_SurfaceType": 0,
+    "m_ZWriteControl": 0,
+    "m_ZTestMode": 4,
+    "m_AlphaMode": 0,
+    "m_RenderFace": 2,
+    "m_AlphaClip": false,
+    "m_CustomEditorGUI": ""
 }
 
 {
@@ -1887,14 +1904,6 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.Rendering.BuiltIn.ShaderGraph.BuiltInLitSubTarget",
-    "m_ObjectId": "5f0b0b4c86b14daabb0b60dd5c09e00a",
-    "m_WorkflowMode": 1,
-    "m_NormalDropOffSpace": 0
-}
-
-{
-    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.NormalMaterialSlot",
     "m_ObjectId": "615a90926e6c4434982bf19d3b1b5c83",
     "m_Id": 0,
@@ -2433,23 +2442,6 @@
 }
 
 {
-    "m_SGVersion": 2,
-    "m_Type": "UnityEditor.Rendering.BuiltIn.ShaderGraph.BuiltInTarget",
-    "m_ObjectId": "8d5b8629365648b5b2fe1ea0f255d5cd",
-    "m_ActiveSubTarget": {
-        "m_Id": "5f0b0b4c86b14daabb0b60dd5c09e00a"
-    },
-    "m_AllowMaterialOverride": true,
-    "m_SurfaceType": 0,
-    "m_ZWriteControl": 0,
-    "m_ZTestMode": 4,
-    "m_AlphaMode": 0,
-    "m_RenderFace": 2,
-    "m_AlphaClip": true,
-    "m_CustomEditorGUI": ""
-}
-
-{
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "8d707be2b1a04ed39ffcffaba255a6ac",
@@ -2841,6 +2833,14 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.Rendering.BuiltIn.ShaderGraph.BuiltInLitSubTarget",
+    "m_ObjectId": "a473ed17c922415aa6370f9de04ce55d",
+    "m_WorkflowMode": 1,
+    "m_NormalDropOffSpace": 0
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "a6eb917b903c48d180b31ec7fa4591a8",
     "m_Id": 3,
@@ -3115,9 +3115,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -243.20004272460938,
-            "y": 493.60009765625,
-            "width": 208.0000457763672,
+            "x": -268.0,
+            "y": 600.0,
+            "width": 208.0,
             "height": 390.4000244140625
         }
     },
