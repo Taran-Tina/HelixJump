@@ -30,7 +30,7 @@ public class Ball : MonoBehaviour
 
         RigidBody = gameObject.GetComponent<Rigidbody>();
 
-       // platformDestructionVFX = GameObject.Find("PlatformDestruction");
+        //platformDestructionVFX = GameObject.Find("PlatformDestruction");
     }
 
     private void OnTriggerEnter(Collider trigger)
@@ -61,12 +61,11 @@ public class Ball : MonoBehaviour
         if (other.gameObject.name == "Slice")
         {
             Destroy(other.gameObject);
-            // other.GetComponent<Rigidbody>().AddForce(new Vector3(0, 5, 0), ForceMode.Impulse);
         }
         manager.GetComponent<Helix>().AddScore(1);
 
         _audio.Play();
-      /*  platformDestructionVFX.transform.position = new Vector3(platformDestructionVFX.transform.position.x, 
+        /*platformDestructionVFX.transform.position = new Vector3(platformDestructionVFX.transform.position.x, 
                                                                 Camera.transform.position.y-3,
                                                                 platformDestructionVFX.transform.position.z);
         platformDestructionVFX.GetComponent<ParticleSystem>().Play();*/
